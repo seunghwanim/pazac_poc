@@ -76,12 +76,17 @@
     margin-top: 60px;
     background: var(--white);
     border-bottom: 1px solid var(--border);
+  }
+
+  .hero-inner {
+    max-width: 1080px;
+    margin: 0 auto;
     padding: 64px 48px 56px;
   }
 
   .hero-eyebrow {
     font-family: 'Barlow', sans-serif;
-    font-size: 11px;
+    font-size: 14px;
     font-weight: 600;
     letter-spacing: 0.18em;
     text-transform: uppercase;
@@ -116,7 +121,7 @@
   }
 
   .content {
-    max-width: 840px;
+    max-width: 1080px;
     margin: 0 auto;
     padding: 56px 48px 100px;
   }
@@ -124,7 +129,7 @@
   /* ── TYPOGRAPHY ── */
   .section-eyebrow {
     font-family: 'Barlow', sans-serif;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 600;
     letter-spacing: 0.18em;
     text-transform: uppercase;
@@ -145,7 +150,7 @@
     font-size: 15px;
     color: var(--ink-mid);
     line-height: 1.85;
-    max-width: 620px;
+    max-width: 900px;
   }
 
   .divider { border: none; border-top: 1px solid var(--border); margin: 48px 0; }
@@ -442,7 +447,7 @@
   /* ── RESPONSIVE ── */
   @media (max-width: 680px) {
     header { padding: 0 20px; }
-    .hero { padding: 48px 20px 40px; }
+    .hero-inner { padding: 48px 20px 40px; }
     .content { padding: 40px 20px 80px; }
     .stores-grid { grid-template-columns: 1fr 1fr; }
     .value-grid { grid-template-columns: 1fr 1fr; }
@@ -464,9 +469,11 @@
 </header>
 
 <div class="hero">
-  <div class="hero-eyebrow">Dough House PAZAC</div>
-  <div class="hero-title">우리는 도우하우스<br>파작입니다</div>
-  <p class="hero-desc">셰프들이 만드는 스트릿푸드를 지향합니다.<br>어디에도 없는 바삭한 빵, 어디에도 없는 부드러운 빵을 굽습니다.</p>
+  <div class="hero-inner">
+    <div class="hero-eyebrow">Dough House PAZAC</div>
+    <div class="hero-title">우리는 도우하우스<br>파작입니다</div>
+    <p class="hero-desc">셰프들이 만드는 스트릿푸드를 지향합니다.<br>어디에도 없는 바삭한 빵, 어디에도 없는 부드러운 빵을 굽습니다.</p>
+  </div>
 </div>
 
 <!-- ABOUT -->
@@ -474,7 +481,7 @@
   <div class="content">
     <div class="section-eyebrow">About PAZAC</div>
     <div class="section-heading">도우하우스 파작</div>
-    <p class="body-text">파작은 자체 개발한 도우로 샌드위치를 굽는 F&B 브랜드입니다. 요리사뿐 아니라 디자이너, 건축가, 기획자, 마케터 등 다양한 재능이 모여 음식의 맛과 진정성을 최우선으로 성장하고 있는 젊은 회사입니다.</p>
+    <p class="body-text">파작은 자체 개발한 도우로 샌드위치를 굽는 브랜드입니다. <br> 요리사뿐 아니라 디자이너, 건축가, 기획자, 마케터 등 다양한 재능이 모여 함께 성장하고 있는 젊은 회사입니다.</p>
 
     <div class="stores-grid" style="margin-top: 32px;">
       <div class="store-item">
@@ -490,12 +497,12 @@
       <div class="store-item">
         <div class="store-tag">6월 오픈</div>
         <div class="store-nm">여의도점</div>
-        <div class="store-addr">여의도<br>2025년 6월 예정</div>
+        <div class="store-addr">여의도<br>2026년 6월 예정</div>
       </div>
       <div class="store-item">
         <div class="store-tag">팝업 진행</div>
         <div class="store-nm">신세계 강남</div>
-        <div class="store-addr">신세계 강남점<br>~2025. 07. 30</div>
+        <div class="store-addr">신세계 강남점<br>~2026. xx. xx</div>
       </div>
     </div>
 
@@ -504,24 +511,24 @@
     <div class="section-eyebrow">연혁</div>
     <div class="timeline">
       <div class="tl-row">
-        <div class="tl-year">2024</div>
-        <div class="tl-content"><strong>청계천 1호점 오픈</strong> — 종각역 인근, 도우 샌드위치 전문점으로 브랜드 시작</div>
+        <div class="tl-year">2025. xx</div>
+        <div class="tl-content"><strong>청계천 1호점 오픈</strong> — 청계천 인근, 도우 샌드위치 전문점으로 브랜드 시작</div>
       </div>
       <div class="tl-row">
-        <div class="tl-year">2024</div>
-        <div class="tl-content"><strong>북성수 2호점 오픈</strong> — 성수역 인근, 안정적인 운영 기반 구축</div>
+        <div class="tl-year">2025. xx</div>
+        <div class="tl-content"><strong>북성수 2호점 오픈</strong> — 북성수역 2호점 오픈</div>
       </div>
       <div class="tl-row">
-        <div class="tl-year">2024</div>
-        <div class="tl-content"><strong>더현대 팝업 성공</strong> — 오픈 첫 달 더현대 팝업 제안 수락 및 성공적으로 마무리</div>
+        <div class="tl-year">2025. xx</div>
+        <div class="tl-content"><strong>더현대서울 팝업 진행</strong> — 더현대서울 팝업 스토어 진행</div>
       </div>
       <div class="tl-row">
-        <div class="tl-year">2025</div>
-        <div class="tl-content"><strong>신세계 강남 팝업</strong> — 매주 줄 서는 맛집으로 성장, ~7월 30일까지 진행</div>
+        <div class="tl-year">2026. xx</div>
+        <div class="tl-content"><strong>신세계 강남 팝업</strong> — 신세계백화점 강남 팝업 스토어 진행 (~2026. xx. xx일까지 진행)</div>
       </div>
       <div class="tl-row">
-        <div class="tl-year">2025. 06</div>
-        <div class="tl-content"><strong>여의도점 오픈 예정</strong></div>
+        <div class="tl-year">2026. 06</div>
+        <div class="tl-content"><strong>여의도 3호점 오픈</strong> — 여의도 63스퀘어 퐁피두센터 내 3호점 오픈</div>
       </div>
     </div>
   </div>
@@ -532,14 +539,14 @@
   <div class="content">
     <div class="section-eyebrow">Culture & Values</div>
     <div class="section-heading">우리가 지향하는 것</div>
-    <div class="blockquote">"음식에 대한 맛과 진정성을 최우선으로 — 단순히 팔리는 브랜드가 아닌, 믿을 수 있는 브랜드를 만듭니다."</div>
-    <p class="body-text">파작은 화려한 마케팅보다 음식 본연의 가치를 앞세웁니다. 깊은 경력을 가진 동료들이 같은 꿈을 바라보며 함께 일하는 곳입니다.</p>
+    <div class="blockquote">"음식에 대한 맛과 진정성을 최우선으로 <br> —  단순히 팔리는 브랜드가 아닌, 믿을 수 있는 브랜드를 만듭니다."</div>
+    <p class="body-text">파작은 화려한 마케팅보다 음식 본연의 가치를 앞세웁니다. <br> 다양한 경력을 가진 동료들이 같은 꿈을 바라보며 함께 일하는 곳입니다.</p>
 
     <div class="value-grid">
       <div class="value-card">
         <span class="value-icon">🔥</span>
         <div class="value-title">진정성 있는 음식</div>
-        <div class="value-desc">세일즈나 겉보이는 브랜딩보다 맛과 재료에 대한 진심을 우선합니다.</div>
+        <div class="value-desc">맛과 재료에 대한 진심을 우선합니다.</div>
       </div>
       <div class="value-card">
         <span class="value-icon">👥</span>
